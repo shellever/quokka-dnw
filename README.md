@@ -19,8 +19,8 @@ $ sudo make install
 
 4. unplug usb and plug it in again
 
-5. run dnw2
-$ ./dnw2 -f u-boot.bin
+5. run dnw
+$ ./dnw -f u-boot.bin
 ```
 
 
