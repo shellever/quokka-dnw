@@ -1,6 +1,6 @@
-all: dnw2
+all: dnw
 
-dnw2: dnw2.c
+dnw: dnw.c
 	gcc -o $@ $^ -lusb
 
 install:
@@ -8,7 +8,7 @@ install:
 	sudo service udev restart
 
 clean:
-	rm -f dnw2 
+	rm -f dnw
 
 .PHONY: all clean
 
