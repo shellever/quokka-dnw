@@ -136,8 +136,8 @@ void print_usage(const char *prog)
          "  -p, --product    product id (default 0x1234)\n"
          "  -v, --vendor     vendor id (default 0x5345)\n");
     printf("Example:\n");
-    printf("  $ sudo ./dnw\n");
-    printf("  $ sudo ./dnw -a 0x30000000 -f u-boot.bin\n\n");
+    printf("  $ ./dnw\n");
+    printf("  $ ./dnw -a 0x30000000 -f u-boot.bin\n\n");
     exit(1);
 }
 
